@@ -78,6 +78,31 @@ body {
   text-decoration: none;
 }
 
+.top-stories {
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid rgb(119, 119, 119);
+  margin-top: 0.5em;
+  padding-bottom: 1em;
+  margin-bottom: 0.5em;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.article-title {
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.article-subtitle {
+  font-size: 1.125em;
+  font-weight: normal;
+  color: rgb(119, 119, 119);
+}
+
 /* Utility Classes */
 .margin-top-5 {
   margin-top: 5px;
