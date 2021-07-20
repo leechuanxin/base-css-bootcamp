@@ -7,7 +7,7 @@ body {
   margin: 0;
   position: relative;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .topbar {
@@ -37,4 +37,62 @@ body {
 .topbar-menu:visited {
   color: #000;
   text-decoration: none;
+}
+
+.category-header {
+  padding: 5px 10px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.375em;
+  border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+.advertisement-section {
+  padding: 10px;
+  background: rgb(237, 237, 245);
+}
+
+.ad {
+  background-color: white;
+  height: 50px;
+  width: 250px;
+  flex-basis: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .ad {
+    height: 100px;
+    width: 500px;
+    flex-basis: 500px;
+  }
+}
+
+.ad:link,
+.ad:hover,
+.ad:visited,
+.ad:active {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.padding-top-5 {
+  padding-top: 5px;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
