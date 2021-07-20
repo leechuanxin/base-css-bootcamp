@@ -1,3 +1,40 @@
-body{
-  background-color:pink;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+.topbar-logo {
+  display: inline-block;
+  background: url("https://static.straitstimes.com.sg/sites/all/themes/custom/bootdemo/images/st-masthead--sprite.png");
+  background-size: 186px;
+  height: 15px;
+  width: 177px;
+  vertical-align: middle;
+}
+
+.topbar-menu {
+  float: right;
+}
+
+.topbar-menu:link,
+.topbar-menu:hover,
+.topbar-menu:active,
+.topbar-menu:visited {
+  color: #000;
+  text-decoration: none;
 }
