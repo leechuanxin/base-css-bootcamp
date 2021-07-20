@@ -127,3 +127,9 @@ body {
 .justify-content-center {
   justify-content: center;
 }
+
+.imgresponsive {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
