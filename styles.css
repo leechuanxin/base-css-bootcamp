@@ -51,6 +51,8 @@ body {
 .advertisement-section {
   padding: 10px;
   background: rgb(237, 237, 245);
+  border-top: 1px solid rgb(119, 119, 119);
+  border-bottom: 1px solid rgb(119, 119, 119);
 }
 
 .ad {
@@ -77,6 +79,10 @@ body {
 }
 
 /* Utility Classes */
+.margin-top-5 {
+  margin-top: 5px;
+}
+
 .padding-top-5 {
   padding-top: 5px;
 }
